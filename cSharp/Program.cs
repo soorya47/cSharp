@@ -8,8 +8,6 @@ namespace cSharp
 {
     class HostPS3
     {
-        private const string Value = "C://Users//soory//OneDrive//Desktop//To//23.txt";
-
         static void Main(string[] args)
         {
             Console.WriteLine("enter path1");
@@ -17,9 +15,11 @@ namespace cSharp
             Console.WriteLine("enter path2");
             string s2 = Console.ReadLine();
 
-            PowerShell.Create().AddCommand("Copy-Item").AddParameter(s1)
+            
+                PowerShell.Create().AddCommand("Copy-Item").AddParameter("-Path", s1)
                                .AddParameter("-Destination", s2)
                                .Invoke();
+           
             
             Console.WriteLine("Hit any key to exit.");
             Console.ReadKey();
