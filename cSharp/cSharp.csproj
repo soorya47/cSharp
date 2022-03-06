@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Accessibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerShell.Commands.Diagnostics">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.PowerShell.Commands.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerShell.Commands.Management">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.PowerShell.Commands.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerShell.Commands.Utility">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.PowerShell.Commands.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerShell.ConsoleHost">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.PowerShell.ConsoleHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerShell.CoreCLR.Eventing">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.PowerShell.CoreCLR.Eventing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerShell.GraphicalHost">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.PowerShell.GraphicalHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerShell.MarkdownRender">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.PowerShell.MarkdownRender.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerShell.SDK">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.PowerShell.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.PowerShell.Security">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.PowerShell.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WSMan.Management">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.WSMan.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WSMan.Runtime">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\Microsoft.WSMan.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management.Automation">
+      <HintPath>..\..\..\..\..\..\Program Files\PowerShell\7\System.Management.Automation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
